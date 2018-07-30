@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://cdn.mingsoft.net/plugins/hammerjs/2.0.8/hammer.min.js"></script>
+    <script src="http://cdn.mingsoft.net/plugins/vue/2.3.3/vue.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+
+<body onload="a1.renderDom('app')">
+    <div id="app">
+        <h1>{{message}}</h1>
+    </div>
+    <div>
+        <fieldset>
+            <button onclick="a1.changeMes()">改变消息</button>
+            <button onclick="a1.clearMes()">清空消息</button>
+        </fieldset>
+    </div>
+</body>
+
+</html>
